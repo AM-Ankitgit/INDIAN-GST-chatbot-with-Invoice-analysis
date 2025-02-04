@@ -1,0 +1,22 @@
+primary_agent:
+  llm: "gpt-4o"
+  llm_temperature: 0
+
+lookup_gst_rag:
+  unstrucutured_data_folder: "PDF_DATA"
+  vector_db_path: "VECTOR_DB"
+  collection_name: 'pdf_data'
+  gst_rag_embedding_model: "text-embedding-3-small"
+  k:                      3
+  extract_images_in_pdf: False
+  infer_table_structure: True
+  chunking_strategy: "by_title"
+  max_characters: 4000
+  new_after_n_chars: 3800
+  combine_text_under_n_chars: 2000
+  llm_tool_rag: 'o1-mini'
+
+  
+
+
+
