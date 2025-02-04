@@ -38,6 +38,9 @@ Ensure you have the following dependencies installed:
 - pip install -r requirements.txt
 - setup api key in .env (open api key)
 
+### how to run
+
+- python app.py
 
 ### API Endpoints
 
