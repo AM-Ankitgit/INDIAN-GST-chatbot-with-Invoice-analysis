@@ -27,9 +27,16 @@ Ensure you have the following dependencies installed:
 
 ### Setup
 
-1. Clone the repository:
-   `"" ``https://github.com/AM-Ankitgit/INDIAN-GST-chatbot-with-Invoice-analysis.git """`
+### git clone 
 
+### [https://github.com/your-repo/gst-analysis-agent.git](https://github.com/your-repo/gst-analysis-agent.git)
+
+### cd gst-analysis-agent
+
+- python -m venv botenv
+- source botenv/bin/activate  # On Windows, use: botenv\Scripts\activate
+- pip install -r requirements.txt
+- setup api key in .env (open api key)
 
 
 ### API Endpoints
