@@ -1,5 +1,4 @@
-# INDIAN-GST-chatbot-with-Invoice-analysis 
-
+# INDIAN-GST-chatbot-with-Invoice-analysis
 
 # RAG-Based GST Analysis Agent
 
@@ -29,3 +28,21 @@ Ensure you have the following dependencies installed:
 ### Setup
 
 1. Clone the repository:
+   `"" ``https://github.com/AM-Ankitgit/INDIAN-GST-chatbot-with-Invoice-analysis.git """`
+
+
+
+### API Endpoints
+
+1. **Upload Data:**
+   * Endpoint: `<span>/UploadData</span>`
+   * Method: `<span>POST</span>`
+   * Supports: Text, PDFs, Images
+2. **PDF Processing:**
+   * Uses `<span>unstructured.partition.pdf</span>` for structured data extraction.
+   * Extracts tables and text separately.
+3. **Image Processing:**
+   * Uses `<span>pytesseract</span>` for OCR-based text extraction.
+   * Object detection using `<span>torchvision</span>`.
+4. **Integration with O1-mini:**
+   * The system leverages the `<span>O1-mini</span>` model for intelligent text generation and reasoning over retrieved GST data.
